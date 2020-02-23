@@ -15,6 +15,4 @@ This script will:
 
 To install and run this script you need to run commands on your server:
 
-git clone https://github.com/Miner-Ninja/server-security-suite.git
-cd server-security-suite
-bash levelUp.sh
+git clone https://github.com/Miner-Ninja/server-security-suite.git && cd server-security-suite && bash levelUp.sh
