@@ -5,7 +5,7 @@ make sure you have created linux user that can use sudo command.
 Attention: This script will run all commands without by user interuption
 Use this script at your own risk !!!
 
-This script will:
+This script will do:
 - Update repositories and upgrade system
 - Change default ssh connection from port 22 to 8822
 - Disable SSH login for root user
