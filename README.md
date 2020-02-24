@@ -2,7 +2,7 @@
 This simple script improve Debian/Ubuntu server security level after default system install.
 
 Attention: This script disable root user login for SSH.
-Make sure you create a Linux user who can use the sudo command.
+Make sure you already create a Linux user who can use the sudo command.
 
 Attention: This script will run all commands without user interaction.
 
