@@ -10,7 +10,7 @@ Use this script at your own risk !!!
 
 This script will do:
 - Update repositories and upgrade system
-- Change default ssh connection from default port 22 to custom 8822
+- Change SSH default port 22 to custom 8822 port
 - Disable SSH login for root user
 - Install and enable the UFW firewall. Allow connectivity for the new SSH port that we changed before
 - Install fail2ban service for preventing brute force attack for ssh and other services 
