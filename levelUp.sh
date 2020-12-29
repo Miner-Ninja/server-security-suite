@@ -4,7 +4,7 @@
 # Use this script at your own risk
 
 # Update repositories and upgrade system
-sudo apt upgrade -y && sudo apt upgrade
+sudo apt update -y && sudo apt upgrade
 
 # Change default ssh connection from port 22 to 8822
 sudo sed -i 's/#Port 22/Port 8822/g' /etc/ssh/sshd_config
