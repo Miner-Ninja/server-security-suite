@@ -7,6 +7,7 @@ ATTENTION: This script DISABLE root user login for SSH
 Make sure you have already created an additional user and added this user to the sudo group:
 
 sudo adduser newuser
+
 sudo usermod -aG sudo newuser
 
 ATTENTION: This script will run all commands without user interaction.
