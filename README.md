@@ -1,12 +1,15 @@
-# server-security-suite
-This simple script improve Debian/Ubuntu server security level after default system install.
+# server-security-suite - Use this script at your own risk !!!
 
-Attention: This script disable root user login for SSH.
-Make sure you already create a Linux user who can use the sudo command.
+This simple script improve Debian/Ubuntu server security level after default system install
 
-Attention: This script will run all commands without user interaction.
+ATTENTION: This script DISABLE root user login for SSH
 
-Use this script at your own risk !!!
+Make sure you have already created an additional user and added this user to the sudo group:
+
+sudo adduser newuser
+sudo usermod -aG sudo newuser
+
+ATTENTION: This script will run all commands without user interaction.
 
 This script will do:
 - Update repositories and upgrade system
@@ -16,6 +19,4 @@ This script will do:
 - Install fail2ban service for preventing brute force attack for ssh and other services 
 - Install rkhunter anti-rootkit tool and enable daily system check. Don't forget manually configure email notifications for rkhunter service
 
-To install and run this script you need to run commands on your server:
-
-git clone https://github.com/Miner-Ninja/server-security-suite.git && cd server-security-suite && bash levelUp.sh
+Run this script: git clone https://github.com/Miner-Ninja/server-security-suite.git && cd server-security-suite && bash levelUp.sh
